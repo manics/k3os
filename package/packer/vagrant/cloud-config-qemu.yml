@@ -1,0 +1,11 @@
+k3os:
+  password: rancher
+
+write_files:
+  - content: |
+      AllowTcpForwarding      no
+      GatewayPorts            no
+      PasswordAuthentication  yes
+      X11Forwarding           no
+      Subsystem   sftp    internal-sftp
+    path: /etc/ssh/sshd_config
