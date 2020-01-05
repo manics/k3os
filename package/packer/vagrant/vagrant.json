@@ -1,8 +1,8 @@
 {
   "variables": {
     "password": "rancher",
-    "version": "v0.5.0",
-    "checksum": "f545735af8fc67902c7891a067022ffe8cc015cef54ba5bacd29296b76cfdc2a"
+    "version": "v0.8.0",
+    "checksum": "e33cff33b89dab8ea0c390aaa1dc4aa1c512a44e9cd5aa9ad465c9cc87f1cf3e"
   },
   "builders": [{
     "type": "virtualbox-iso",
