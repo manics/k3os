@@ -1,3 +1,5 @@
+# https://github.com/rancher/k3os/blob/v0.8.0/README.md#configuration
+
 k3os:
   password: rancher
 
@@ -9,3 +11,16 @@ write_files:
       X11Forwarding           no
       Subsystem   sftp    internal-sftp
     path: /etc/ssh/sshd_config
+
+run_cmd:
+  - echo run_cmd >> /etc/hello.txt
+  - date >> /etc/hello.txt
+  - parted ---pretend-input-tty /dev/vda 'resizepart 1 yes 100%'
+  - resize2fs /dev/vda1
+  - df -h >> /etc/hello.txt
+
+init_cmd:
+  - echo init_cmd >> /etc/hello.txt
+
+boot_cmd:
+  - echo boot_cmd >> /etc/hello.txt
