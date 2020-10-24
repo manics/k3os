@@ -51,3 +51,7 @@ SHELL
 The above example also shows how the k3OS config can be changed. When
 you do so, you have to set the password to `rancher`. If this is not the
 case, vagrant will not be able to login.
+
+## Uploading to Vagrant Cloud
+
+See https://www.vagrantup.com/vagrant-cloud/boxes/create
