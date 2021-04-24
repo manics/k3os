@@ -17,7 +17,7 @@
         "y",
         "<enter>"
       ],
-      "boot_wait": "40s",
+      "boot_wait": "60s",
       "disk_size": "20000",
       "format": "qcow2",
       "http_directory": ".",
@@ -39,8 +39,8 @@
     }
   ],
   "variables": {
-    "iso_checksum": "ab15fcd4c4f5ed8805932523f85594f6844fe611fc50f8bc9a82ddd9bd326db0",
-    "iso_url": "https://github.com/rancher/k3os/releases/download/v0.11.1/k3os-amd64.iso",
+    "iso_checksum": "4df22d4aeafeefd061bb0e33bf9e250e4991dd1853f3751b27b6792773ec1a2d",
+    "iso_url": "https://github.com/rancher/k3os/releases/download/v0.20.4-k3s1r0/k3os-amd64.iso",
     "password": "rancher"
   }
 }
