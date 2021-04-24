@@ -18,6 +18,11 @@ You can then login to the box using `vagrant ssh`. See [Vagrant
 Docs](https://www.vagrantup.com/docs/index.html) for more details on how
 to use Vagrant
 
+If you see errors due to a failure to detect the operating system you can try
+```
+vagrant up --no-destroy-on-error
+```
+
 ## Notes
 
 The generated box does not have the Virtualbox Guest Additions
